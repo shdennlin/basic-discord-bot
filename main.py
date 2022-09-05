@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", bot=True, intents=intents)
 load_dotenv()
-token = os.getenv("TOKEN")
+token = os.getenv("DISCORD_BOT_TOKEN")
 
 
 @bot.event
