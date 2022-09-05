@@ -53,6 +53,10 @@
 2. edit env file
 3. `make run`
 
+## NOTE
+
+1. this project can't run on Raspberry Pi 4, because the discord.py library doesn't support it.
+
 ## Ref
 
 1. [Welcome to discord.py](https://discordpy.readthedocs.io/en/latest/index.html)
